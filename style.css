@@ -1,0 +1,264 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+  text-align: center;
+}
+
+body {
+ background-color: #364156; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #EFF0D1;
+  font-family: 'Bungee Inline', cursive;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 40px;
+}
+h3{
+
+  font-size: 28px;
+  font-family: 'Bungee Inline', cursive;
+    color: #F0C1BC;
+}
+h5{
+  color: #dae7fb;
+  font-family: 'Passion One', cursive;
+  font-size: 25px;
+  letter-spacing: 1.2px;
+  margin-top:2%;
+  font-weight: lighter;
+}
+#biashdr{
+  margin-right: 7%;
+}
+
+
+.hlthinfo{
+  font-size: 17px;
+  font-family: 'Poiret One', cursive;
+  color: #F6A2C8;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  margin: 0%;
+  margin-left:25%;
+  margin-right:25%;
+}
+
+p{
+  color: #FEE9AE;
+  font-size: 22px;
+  font-family: 'Coda', cursive;
+  margin-left: 18%;
+margin-right: 12%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#desc1{
+    color: #FEE9AE;
+  font-size: 22px;
+  font-family: 'Poiret One', cursive;
+  margin-left: 15%;
+margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 30px;
+  border: 2px dashed #D6EBFF;
+}
+
+#desc2{
+font-family: 'Poiret One', cursive;
+  font-size: 16px;
+}
+.titleyt{
+  font-size: 20px;
+  color: white;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top:0%;  
+  line-height: 27px;
+}
+.contntpg{
+  margin-left: 0%;
+  margin-top: 2%;
+}
+.accesstxt{
+  color: #DBE3CA;
+  font-size: 15px;
+  margin-left: 10%;
+  
+}
+.biastxt{
+ color: #DBE3CA;
+  font-size: 18px;
+  margin-right: 18%; 
+  margin-left: 18%; 
+  margin-top: 3%; 
+}
+.biastxt1{
+ color: #DBE3CA;
+  font-size: 17px;
+  margin-right: 7%; 
+  margin-left: 7%; 
+  margin-top: 3%; 
+}
+.biastxt2{
+ color: #DBE3CA;
+  font-size: 14px;
+  margin-right: 12%; 
+  margin-left: 0%; 
+  margin-top: 3%; 
+}
+
+
+/* STYLE IMAGES */
+img{
+  width: 40%;
+  length: 20%;
+  margin-top:5%;
+  border: 3px solid white;
+}
+#biaspic{
+  width:75%;
+  length: 55%;
+   margin-top:4%;
+  margin-right: 8%;
+}
+#action{
+  margin-bottom: 5%;
+  border: 3px solid #dbf0e3;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+#tkeactn{
+  margin-bottom: -2%;
+}
+.action{
+  font-size:18px;
+  
+}
+/* STYLE NAV BAR */
+
+.navbar{
+  list-style-type: none;
+  background-color: #A93D28;
+  overflow: hidden;
+  padding: .2em;
+  display: in-line;
+  padding-top: 5px;
+}
+.nav a{
+  float: left;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  font-family: 'Coda', cursive;
+  display: in-line;
+   text-align: right;
+}
+.nav a:hover{
+  background-color: #D66853
+}
+/* LINKS */
+a{
+  color: #EED8D9;
+    text-decoration: underline dotted;
+}
+/*LISTS*/
+
+.resrclst{
+ overflow: hidden;
+  list-style-type: none;
+}
+
+
+/* STYLE BUTTONS */
+button{
+  border: 4px dashed #f7af97;
+  font-family: 'Poiret One', cursive;
+  padding: 10px;
+  font-weight: bolder;
+  border-radius: 20%;
+    font-size: 15px;
+}
+
+/* ADD MORE! */
+
+.homecontainer {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.homecontainer1 {
+    display: flex;
+margin-bottom: 5%;
+padding-bottom: 6%;
+border-bottom: 7px solid #d1eaef;
+   flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.home {
+ flex: 1;
+  flex-basis: 100%;
+}
+.home: first-child{
+  margin-right: 20px;
+}
+
+footer{
+  background-color:#E85D75;
+  text-align: right;
+  padding: 18px;
+  margin-top:5%;
+    font-family: 'Coda', cursive;
+}
+
+/* Fact Generator */
+#facts{
+  font-size:50px;
+  font-family: 'Staatliches', cursive;
+  color: white;
+  
+  font-
+}
+
+#fact{
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+#resrc{
+  border: 3px dotted #F0C5A8;
+  margin-top: 2%;
+  margin-right: 13%;
+  margin-left: 13%;
+  padding:25px;
+}
+
+@media screen and (max-width: 850px){
+  .homecontainer {
+  flex-wrap: wrap;
+}
+.homecontainer1 {
+  flex-wrap: wrap;
+}
+  main{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #fact{
+   margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 1.5em;
+  }
+  iframe{
+    width: 360px;
+    length:185px;
+  }
+}
